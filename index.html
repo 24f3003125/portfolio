@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riyanshi Tomar — Projects</title>
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --card: #141823;
+      --text: #e8eaf0;
+      --muted: #9aa3b8;
+      --accent: #7c9cff;
+      --border: #232838;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 64px 24px 32px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin: 0 0 8px;
+    }
+    .tagline {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 0 0 24px;
+    }
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 16px;
+      font-size: 0.95rem;
+    }
+    .links a:hover { text-decoration: underline; }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 24px 64px;
+    }
+    section { margin-bottom: 40px; }
+    h2 {
+      font-size: 1.3rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+    .card p { margin: 0 0 10px; color: var(--muted); font-size: 0.95rem; }
+    .tags span {
+      display: inline-block;
+      background: #1c2233;
+      color: var(--accent);
+      font-size: 0.75rem;
+      padding: 3px 9px;
+      border-radius: 999px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Riyanshi Tomar</h1>
+    <p class="tagline">Data Science &amp; AI undergrad, IIT Madras — building AI automation, agentic pipelines, and full-stack tools.</p>
+    <div class="links">
+      <a href="https://github.com/RiyanshiTomar" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/riyanshi-tomar-808ab7318/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://riyanshi-portfolio-mmr5.vercel.app" target="_blank" rel="noopener">Portfolio</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Selected Projects</h2>
+
+      <div class="card">
+        <h3>ResearchMind</h3>
+        <p>A four-agent research pipeline that plans, searches, scrapes, and synthesizes findings into a report.</p>
+        <div class="tags">
+          <span>LangChain</span><span>Mistral AI</span><span>Tavily</span><span>BeautifulSoup</span><span>Streamlit</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>AI Video Meeting Assistant</h3>
+        <p>Transcribes and indexes meetings from Zoom, Meet, Teams, or local files, with semantic search over transcripts.</p>
+        <div class="tags">
+          <span>Whisper</span><span>FAISS</span><span>LangChain</span><span>Streamlit</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>City Assistant Agent</h3>
+        <p>An agentic assistant demonstrating LangChain Runnables, tool binding, and reasoning loops for city-related queries.</p>
+        <div class="tags">
+          <span>LangChain</span><span>Agents</span><span>Tool Calling</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>GEW Call Intelligence Pipeline</h3>
+        <p>An AI-powered call analysis and reporting system for counsellor recordings — transcribing, scoring, and pushing insights into a live management dashboard.</p>
+        <div class="tags">
+          <span>Vertex AI Gemini</span><span>Google Sheets API</span><span>Python</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I'm a Data Science &amp; AI student at IIT Madras, currently interning at PhysicsWallah on the
+        Government Exam Wallah team, where I build AI automation across counselling, academics, and
+        business analytics. I also mentor junior developers and run coding sessions for my peers.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Contact:
+      <!--email_off-->24f3003125@ds.study.iitm.ac.in<!--/email_off-->
+    </p>
+    <p>&copy; 2026 Riyanshi Tomar</p>
+  </footer>
+
+</body>
+</html>
